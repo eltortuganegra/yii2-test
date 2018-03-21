@@ -23,6 +23,8 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
+        'https://mottie.github.io/tablesorter/js/jquery.tablesorter.combined.js',
+        'http://www.github.developerdan.com/table-to-json/javascripts/jquery.tabletojson.min.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
